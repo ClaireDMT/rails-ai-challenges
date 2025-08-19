@@ -2,6 +2,6 @@
 
 <%= raw(render_markdown(@challenge.content)) %>
 
-<%= link_to "Ask for help", new_challenge_message_path(@challenge), class: "btn btn-secondary" %>
+<%= link_to "Chat with AI for help", new_challenge_message_path(@challenge), class: "btn btn-secondary" %>
 
 <%= link_to "View messages", challenge_messages_path(@challenge), class: "link-secondary" %>
